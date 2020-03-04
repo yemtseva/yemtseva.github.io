@@ -1,0 +1,264 @@
+
+
+body {
+
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-color: black;
+  font-size: 120%;
+  margin-top: 2em;
+  color: #FFFFFF;
+  background-image: url("../img/subpageBack.png");
+  background-repeat: repeat;
+  background-size: 2000px 2000px;
+  background-position: center;
+}
+
+.RightInfo img {
+  height: 90%;
+  width: 100%;
+}
+
+.RightInfo {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  border: 2px solid black;
+  background-image: url("../img/backInfo.png");
+
+}
+
+h5 {
+  border: 1px solid black;
+}
+
+h2 {
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 250%;
+  position: absolute;
+  top: 2%;
+  left: 82%;
+}
+
+h1 {
+  margin-left: 1em;
+}
+
+p {
+  margin-left: 3.5em;
+  margin-right: 50em;
+}
+
+.frankT {
+  position: absolute;
+  top: 25%;
+  left: -5%;
+  margin-left: -10em;
+  height: 55%;
+  width: 55%;
+}
+
+.KievT {
+  position: absolute;
+  top: 40%;
+  left: 2%;
+  margin-left: -10em;
+  height: 30%;
+  width: 30%;
+}
+
+.manilaT {
+  position: absolute;
+  top: 25.5%;
+  left: 10%;
+  margin-left: -10em;
+  height: 55%;
+  width: 55%;
+}
+.tiTT {
+  position: absolute;
+  top: 37%;
+  left: 26%;
+  margin-left: -10em;
+  height: 30%;
+  width: 20%;
+}
+
+.tiT {
+  position: absolute;
+  top: 37%;
+  left: 45%;
+  margin-left: -10em;
+  height: 30%;
+  width: 20%;
+}
+
+.frankMoney {
+  -webkit-text-stroke: 0.8px gold;
+  color: black;
+  position: absolute;
+  top: 68%;
+  left: 5%;
+}
+
+.manilaMoney {
+  -webkit-text-stroke: 0.8px gold;
+  color: black;
+  position: absolute;
+  top: 68%;
+  left: 23.5%;
+}
+
+.tiMoney{
+  -webkit-text-stroke: 0.8px gold;
+  color: black;
+  position: absolute;
+  top: 68%;
+  left: 43%;
+}
+
+.heroes {
+  position: absolute;
+  top: 80%;
+  left: 0%;
+  display: flex;
+  column-gap: 3000px;
+}
+
+.heroes img {
+  width: 240px;
+  height: 290px;
+}
+
+.SH {
+  position: absolute;
+  top: 75%;
+}
+
+.Invoker {
+  margin-left: 2em;
+}
+
+.Anti-Mage {
+  margin-left: 6em;
+}
+
+.Shadow_Fiend{
+  margin-left: 6em;
+}
+
+.Ember{
+  margin-top: 1em;
+  margin-left: 4em;
+  width: 70%;
+  height: 70%;
+}
+
+.Spectre {
+  margin-left: 6em;
+}
+
+.Void {
+  margin-left: 6em;
+  margin-top: 1em;
+}
+
+
+.TInvoker {
+  -webkit-text-stroke: 1px black;
+  font-family: 'Oswald', cursive;
+  position: absolute;
+  top: 110%;
+  left: 5%;
+}
+
+.TAnti-Mage {
+  -webkit-text-stroke: 1px black;
+  font-family: 'Oswald', cursive;
+  position: absolute;
+  top: 110%;
+  left: 23.8%;
+}
+
+.TShadow_Fiend{
+  -webkit-text-stroke: 1px black;
+  font-family: 'Oswald', cursive;
+  position: absolute;
+  top: 110%;
+  left: 42.7%;
+}
+.TAxe {
+  -webkit-text-stroke: 1px black;
+  font-family: 'Oswald', cursive;
+  position: absolute;
+  top: 110%;
+  left: 8%;
+}
+.TTrent {
+  -webkit-text-stroke: 1px black;
+  font-family: 'Oswald', cursive;
+  position: absolute;
+  top: 110%;
+  left: 25.5%;
+}
+
+.TEmber {
+  -webkit-text-stroke: 1px black;
+  font-family: 'Oswald', cursive;
+  position: absolute;
+  top: 110%;
+  left: 4.4%;
+}
+
+.TSpectre {
+  -webkit-text-stroke: 1px black;
+  font-family: 'Oswald', cursive;
+  position: absolute;
+  top: 110%;
+  left: 27.2%;
+}
+
+.TVoid{
+  -webkit-text-stroke: 1px black;
+  font-family: 'Oswald', cursive;
+  position: absolute;
+  top: 110%;
+  left: 43.2%;
+}
+
+.Highlights {
+  position: absolute;
+  top: 70%;
+  left: 69%;
+}
+
+ul {
+  margin-left: 2em;
+  font-size: 130%;
+}
+
+.TeamLogo {
+  z-index: 1;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 11.4%;
+  left: 96.4%;
+}
+
+::-webkit-scrollbar{
+  width: 7px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #00c6ff);
+  border-radius: 6px;
+}
